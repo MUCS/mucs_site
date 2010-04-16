@@ -4,10 +4,10 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  <title>MUCS atom feed</title>
- <link href="http://d1b.github.com/DMTH137/atom.xml" rel="self"/>
- <link href="http://d1b.github.com/DMTH137"/>
+ <link href="http://d1b.github.com/mucs_site/atom.xml" rel="self"/>
+ <link href="http://d1b.github.com/mucs_site"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://d1b.github.com/DMTH137</id>
+ <id>http://d1b.github.com/mucs_site</id>
  <author>
    <name>dave</name>
    <email>me@OO.com</email>
@@ -26,9 +26,9 @@ layout: nil
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://d1b.github.com/DMTH137{{ post.url }}"/>
+   <link href="http://d1b.github.com/mucs_site{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://d1b.github.com/DMTH137{{ post.id }}</id>
+   <id>http://d1b.github.com/mucs_site{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
