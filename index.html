@@ -1,80 +1,26 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-
-	<title>d1b/mucs_site @ GitHub</title>
-	
-	<style type="text/css">
-		body {
-  		margin-top: 1.0em;
-  		background-color: #c245bc;
-		  font-family: "Helvetica,Arial,FreeSans";
-  		color: #000000;
-    }
-    #container {
-      margin: 0 auto;
-      width: 700px;
-    }
-		h1 { font-size: 3.8em; color: #3dba43; margin-bottom: 3px; }
-		h1 .small { font-size: 0.4em; }
-		h1 a { text-decoration: none }
-		h2 { font-size: 1.5em; color: #3dba43; }
-    h3 { text-align: center; color: #3dba43; }
-    a { color: #3dba43; }
-    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
-    .download { float: right; }
-		pre { background: #000; color: #fff; padding: 15px;}
-    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
-    .footer { text-align:center; padding-top:30px; font-style: italic; }
-	</style>
-	
-</head>
-
-<body>
-  <a href="http://github.com/d1b/mucs_site"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" /></a>
-
-  <div id="container">
-
-    <div class="download">
-      <a href="http://github.com/d1b/mucs_site/zipball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/zip.png"></a>
-      <a href="http://github.com/d1b/mucs_site/tarball/master">
-        <img border="0" width="90" src="http://github.com/images/modules/download/tar.png"></a>
-    </div>
-
-    <h1><a href="http://github.com/d1b/mucs_site">mucs_site</a>
-      <span class="small">by <a href="http://github.com/d1b">d1b</a></span></h1>
-
-    <div class="description">
-      mucs_site mu-cs.com
-    </div>
-
-    <h2>Authors</h2>
-<p>dave bl (db@d1b.org)<br/><br/>      </p>
-<h2>Contact</h2>
-<p>dave b (db@d1b.org)<br/>      </p>
+---
+layout: default
+title: MUCS home page
+---
 
 
-    <h2>Download</h2>
-    <p>
-      You can download this project in either
-      <a href="http://github.com/d1b/mucs_site/zipball/master">zip</a> or
-      <a href="http://github.com/d1b/mucs_site/tarball/master">tar</a> formats.
-    </p>
-    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
-      by running:
-      <pre>$ git clone git://github.com/d1b/mucs_site</pre>
-    </p>
+<div id="home">
+  <h1></h1>
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
 
-    <div class="footer">
-      get the source code on GitHub : <a href="http://github.com/d1b/mucs_site">d1b/mucs_site</a>
-    </div>
+  <h1>Upcoming events</h1>
+  <ul class="posts">
+    <li><span>18 Apr 2010</span> &raquo; <a href="http://groups.google.com/group/mucs-announce-list/browse_thread/thread/6f5708fe885aa6ab">Lan party!</a></li>
+  </ul>
 
-  </div>
+  <h1>Other information</h1>
+  <ul class="posts">
+	  <li><a href="http://github.com/mojombo/jekyll/">Jekyll:</a> A simple, blog aware, static site generator (used for this site).</li>
+	  <li><a href="http://webchat.freenode.net/?channels=mucs">#mucs</a> MUCS irc channel on freenode.</li>
 
-  
-</body>
-</html>
+  </ul>
+</div>
