@@ -4,4 +4,5 @@ title: Testing this!
 ---
 
 h1. {{ page.title }}
+p(meta). 17 April 2010
 
