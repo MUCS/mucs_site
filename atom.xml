@@ -15,19 +15,19 @@ layout: nil
 
 
 <entry>
-    <title>23 July 2010 » M9 Laser Skirmish in North Strathfield, Friday 23rd at 7pm.</title>
+    <title>13 August 2010 » Paper Plane contest.</title>
    <link href="http://mu-cs.com"/>
-   <updated>2010-7-20T10:30:02Z</updated>
+   <updated>2010-8-12T10:30:02Z</updated>
    <id>1</id>
-   <content type="html"> 23 July 2010 » M9 Laser Skirmish in North Strathfield, Friday 23rd at 7pm. </content>
+   <content type="html"> 13 Auguest 2010 » Paper Plane contest at the atrium, 10am till 4pm. </content>
 </entry>
 
 <entry>
-   <title>31 July 2010 » ANZAC league Programming Competition - 5 hours of coding And free food!</title>
+   <title>14 August 2010 » ANZAC league Programming Competition - 5 hours of coding And free food!</title>
    <link href="http://mu-cs.com"/>
-   <updated>2010-7-20T10:30:02Z</updated>
+   <updated>2010-8-12T10:30:02Z</updated>
    <id>2</id>
-   <content type="html"> 31 July 2010 » ANZAC league Programming Competition - 5 hours of coding And free food! </content>
+   <content type="html"> 14 August 2010 » ANZAC league Programming Competition - 5 hours of coding And free food! </content>
 </entry>
 
  {% for post in site.posts %}
