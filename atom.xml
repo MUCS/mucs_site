@@ -9,16 +9,23 @@ layout: nil
  <updated>{{ site.time | date_to_xmlschema }}</updated>
  <id>http://d1b.github.com/mucs_site</id>
  <author>
-   <name>dave</name>
-   <email>me@OO.com</email>
+   <name>mucs contact</name>
+   <email>contact+atom@mu-cs.com</email>
  </author>
 
+<entry>
+    <title>15 December 2010 » Mucs AGM </title>
+   <link href="http://mu-cs.com"/>
+   <updated>2010-11-12T10:30:02Z</updated>
+   <id>1</id>
+   <content type="html"> 15 December 2010 » MUCS AGM this Wednesday at 5pm @Hornsby RSL  </content>
+</entry>
 
 <entry>
     <title>13 August 2010 » Paper Plane contest.</title>
    <link href="http://mu-cs.com"/>
    <updated>2010-8-12T10:30:02Z</updated>
-   <id>1</id>
+   <id>2</id>
    <content type="html"> 13 Auguest 2010 » Paper Plane contest at the atrium, 10am till 4pm. </content>
 </entry>
 
@@ -26,7 +33,7 @@ layout: nil
    <title>14 August 2010 » ANZAC league Programming Competition - 5 hours of coding And free food!</title>
    <link href="http://mu-cs.com"/>
    <updated>2010-8-12T10:30:02Z</updated>
-   <id>2</id>
+   <id>3</id>
    <content type="html"> 14 August 2010 » ANZAC league Programming Competition - 5 hours of coding And free food! </content>
 </entry>
 
